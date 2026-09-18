@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="white"/>
+
+<g font-family="DejaVu Sans, Arial, sans-serif" fill="#111">
+
+  <text x="600" y="55"
+        text-anchor="middle"
+        font-size="30"
+        font-weight="700">
+    The Attribution Gap
+  </text>
+
+  <text x="600" y="88"
+        text-anchor="middle"
+        font-size="17">
+    What an investigation observes is not necessarily the entity controlling the operation
+  </text>
+
+  <g stroke="#111" stroke-width="2" fill="white">
+    <rect x="85" y="250"
+          width="210"
+          height="100"
+          rx="12"/>
+
+    <rect x="360" y="250"
+          width="210"
+          height="100"
+          rx="12"/>
+
+    <rect x="635" y="250"
+          width="210"
+          height="100"
+          rx="12"/>
+
+    <rect x="925" y="250"
+          width="190"
+          height="100"
+          rx="12"/>
+  </g>
+
+  <g font-size="19"
+     font-weight="600"
+     text-anchor="middle">
+
+    <text x="190" y="292">
+      Observed Activity
+    </text>
+
+    <text x="190" y="320"
+          font-size="14"
+          font-weight="400">
+      alerts, behavior, traffic
+    </text>
+
+    <text x="465" y="292">
+      Observed Infrastructure
+    </text>
+
+    <text x="465" y="320"
+          font-size="14"
+          font-weight="400">
+      hosts, services, nodes
+    </text>
+
+    <text x="740" y="292">
+      Role Uncertainty
+    </text>
+
+    <text x="740" y="320"
+          font-size="14"
+          font-weight="400">
+      origin, relay, decoy, resource
+    </text>
+
+    <text x="1020" y="292">
+      Controlling Entity
+    </text>
+
+    <text x="1020" y="320"
+          font-size="14"
+          font-weight="400">
+      ?
+    </text>
+  </g>
+
+  <g stroke="#111"
+     stroke-width="2"
+     fill="none">
+
+    <path d="M295 300 H360"/>
+    <path d="M570 300 H635"/>
+    <path d="M845 300 H925"/>
+  </g>
+
+  <g fill="#111">
+    <path d="M350 293 L360 300 L350 307 Z"/>
+    <path d="M625 293 L635 300 L625 307 Z"/>
+    <path d="M915 293 L925 300 L915 307 Z"/>
+  </g>
+
+  <path d="M740 390 V500"
+        stroke="#555"
+        stroke-width="2"
+        stroke-dasharray="8 8"/>
+
+  <path d="M690 500 H790"
+        stroke="#555"
+        stroke-width="2"/>
+
+  <path d="M705 500 L715 510 L725 500
+           M755 500 L765 510 L775 500"
+        fill="none"
+        stroke="#555"
+        stroke-width="2"/>
+
+  <rect x="355" y="520"
+        width="490"
+        height="85"
+        rx="12"
+        fill="white"
+        stroke="#111"
+        stroke-width="2"/>
+
+  <text x="600" y="553"
+        text-anchor="middle"
+        font-size="19"
+        font-weight="700">
+    Detection ≠ Localization ≠ Attribution
+  </text>
+
+  <text x="600" y="580"
+        text-anchor="middle"
+        font-size="14">
+    Evidence can narrow possibilities without uniquely identifying the controller.
+  </text>
+
+  <text x="600" y="655"
+        text-anchor="middle"
+        font-size="15">
+    A compromised node may be a resource, relay, decoy, or unrelated host rather than the origin of control.
+  </text>
+
+</g>
+</svg>

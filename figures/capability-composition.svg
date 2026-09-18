@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="white"/>
+<g font-family="DejaVu Sans, Arial, sans-serif" fill="#111">
+  <text x="600" y="55" text-anchor="middle" font-size="30" font-weight="700">AAA Capability Composition</text>
+  <text x="600" y="88" text-anchor="middle" font-size="17">A threat hypothesis formed by composition of independently demonstrated or plausible capabilities</text>
+
+  <g stroke="#111" stroke-width="2" fill="white">
+    <rect x="390" y="125" width="420" height="62" rx="10"/>
+    <rect x="390" y="225" width="420" height="62" rx="10"/>
+    <rect x="390" y="325" width="420" height="62" rx="10"/>
+    <rect x="390" y="425" width="420" height="62" rx="10"/>
+    <rect x="390" y="525" width="420" height="62" rx="10"/>
+    <rect x="390" y="625" width="420" height="62" rx="10"/>
+  </g>
+
+  <g font-size="21" text-anchor="middle" font-weight="600">
+    <text x="600" y="164">Autonomous Research</text>
+    <text x="600" y="264">Autonomous Action</text>
+    <text x="600" y="364">Autonomous Propagation</text>
+    <text x="600" y="464">Resource Acquisition</text>
+    <text x="600" y="564">Persistence</text>
+    <text x="600" y="664">Feedback &amp; Adaptation</text>
+  </g>
+
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M600 187 V225"/>
+    <path d="M600 287 V325"/>
+    <path d="M600 387 V425"/>
+    <path d="M600 487 V525"/>
+    <path d="M600 587 V625"/>
+  </g>
+
+  <g fill="#111">
+    <path d="M590 216 L600 225 L610 216 Z"/>
+    <path d="M590 316 L600 325 L610 316 Z"/>
+    <path d="M590 416 L600 425 L610 416 Z"/>
+    <path d="M590 516 L600 525 L610 516 Z"/>
+    <path d="M590 616 L600 625 L610 616 Z"/>
+  </g>
+
+  <path d="M390 656
+           C220 656 180 570 180 430
+           C180 270 250 156 390 156"
+        fill="none"
+        stroke="#555"
+        stroke-width="2"
+        stroke-dasharray="8 8"/>
+
+  <path d="M390 156 L377 151 L382 164 Z" fill="#555"/>
+
+  <text x="205" y="410"
+        text-anchor="middle"
+        font-size="17"
+        transform="rotate(-90 205 410)">
+    composition can form a continuous operational loop
+  </text>
+
+  <rect x="875" y="275"
+        width="235"
+        height="170"
+        rx="12"
+        fill="none"
+        stroke="#111"
+        stroke-width="2"/>
+
+  <text x="992" y="305"
+        text-anchor="middle"
+        font-size="18"
+        font-weight="700">
+    Attribution Resistance
+  </text>
+
+  <text x="992" y="340"
+        text-anchor="middle"
+        font-size="15">
+    surrounds the model
+  </text>
+
+  <text x="992" y="372"
+        text-anchor="middle"
+        font-size="14">
+    rather than representing
+  </text>
+
+  <text x="992" y="397"
+        text-anchor="middle"
+        font-size="14">
+    a single capability
+  </text>
+
+  <path d="M810 356 H875"
+        stroke="#111"
+        stroke-width="2"
+        stroke-dasharray="6 6"/>
+</g>
+</svg>
