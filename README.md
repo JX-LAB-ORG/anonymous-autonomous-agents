@@ -5,6 +5,8 @@ A Forward-Looking Cyber Threat Hypothesis
 JX LAB Technical Report AAA-001
 September 2026
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22829046.svg)](https://doi.org/10.5281/zenodo.22829046)
+
 ---
 
 Overview
