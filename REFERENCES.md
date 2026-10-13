@@ -204,7 +204,35 @@ This was a controlled evaluation involving OpenAI research models and infrastruc
 
 ---
 
-7. Evidence Classification
+7. Autonomous Replication and Distributed Inference on Consumer Devices
+
+[R7] Anthropic Frontier Red Team — AI models may be capable of self-replicating without access to a datacenter
+
+Publisher: Anthropic
+Date: October 12, 2026
+Source: https://www.anthropic.com/research/self-replicating-ai
+Primary area: Distributed inference, constrained replication-chain evaluation, transfer between successive instances
+
+The research reports two distinct demonstrations that should be evaluated separately:
+
+- distributed inference for Gemma4-26B-A4B across 15 inexpensive Android TV boxes;
+- an end-to-end replication-chain task completed by GLM-5.2 across contained Android-emulation nodes under simplified cyber-access conditions, including an unauthenticated ADB path.
+
+The report also describes information or capability transfer between successive instances in a separate evaluation setup, while noting that models made mistakes when the chain was composed under less simplified conditions.
+
+Supports in AAA-001:
+
+- feasibility of distributing inference across low-cost consumer devices;
+- a constrained replication-chain mechanism under experimental conditions;
+- limited evidence relevant to propagation, persistence, and transfer between successive instances.
+
+Important limitations:
+
+Distributed inference is not itself replication. The replication-chain experiment was conducted in a contained environment with simplified access conditions. These results do not demonstrate an uncontrolled, real-world, self-sustaining, attribution-resistant AAA, nor do they establish that all AAA capability layers have been composed into one system.
+
+---
+
+8. Evidence Classification
 
 The following classification is used throughout AAA-001.
 
@@ -257,22 +285,22 @@ In particular:
 
 ---
 
-8. Evidence-to-Capability Mapping
+9. Evidence-to-Capability Mapping
 
 Capability| Primary evidence| Classification
 Autonomous Research| R1, R4, R5| Demonstrated
-Autonomous Action| R1, R2, R3, R5, R6| Demonstrated
-Autonomous Propagation| R1, R2, R3| Demonstrated
+Autonomous Action| R1, R2, R3, R5, R6, R7| Demonstrated in limited forms
+Autonomous Propagation| R1, R2, R3, R7| Demonstrated experimentally under stated conditions
 Resource Acquisition| R1; conventional cybercrime mechanisms| Demonstrated / Established Mechanism
-Persistence & Self-Sustainability| R1, R2, R3| Demonstrated in experimental systems
-Feedback-Driven Adaptation| R1, R5, R6| Demonstrated in limited forms
+Persistence & Self-Sustainability| R1, R2, R3, R7| Component mechanisms demonstrated in experimental systems; indefinite continuation unverified
+Feedback-Driven Adaptation| R1, R5, R6, R7| Demonstrated in limited forms
 Attribution Resistance| —| Hypothesized
-Collective/Asynchronous Adaptation| R6 provides a demonstrated mechanism; full ecosystem-level form remains unverified| Hypothesized
+Collective/Asynchronous Adaptation| R6, R7 provide specific mechanisms; full ecosystem-level form remains unverified| Hypothesized
 Complete AAA| —| Unverified
 
 ---
 
-9. Epistemic Boundary
+10. Epistemic Boundary
 
 The evidence supports the following statement:
 
@@ -296,7 +324,7 @@ Finding malicious activity, infrastructure, or a compromised host does not neces
 
 ---
 
-10. Primary Source Policy
+11. Primary Source Policy
 
 AAA-001 prioritizes:
 
