@@ -108,6 +108,18 @@ See ""REFERENCES.md"" (REFERENCES.md) for the source list and ""EVIDENCE.md"" (E
 
 ---
 
+Research Update — October 2026
+
+Anthropic Frontier Red Team published research on distributed inference across inexpensive consumer devices and a constrained model-driven replication-chain experiment.
+
+The reported work distinguishes two separate results: distributed inference across 15 inexpensive Android TV boxes, and a replication-chain task across contained Android-emulation nodes under simplified cyber-access conditions. The experiments support the feasibility of specific component mechanisms; they do not demonstrate an uncontrolled, self-sustaining, attribution-resistant Anonymous Autonomous Agent.
+
+Primary source: [Anthropic Frontier Red Team — AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai) (October 12, 2026).
+
+See [EVIDENCE.md](EVIDENCE.md) for the capability mapping and [REFERENCES.md](REFERENCES.md) for the source description and limitations. The September 2026 report remains the original, versioned report; this update supplements its evidence materials rather than rewriting the report's historical text.
+
+---
+
 Repository Structure
 
 AAA-001/
